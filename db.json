@@ -1,0 +1,74 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "json-server",
+      "phone": "typicode",
+      "email": "typicode",
+      "password": "typicode"
+    },
+    {
+      "name": "jay",
+      "phone": "244",
+      "email": "j@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "rohit",
+      "phone": "3535",
+      "email": "r@gmail.com",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "name": "jayesh",
+      "phone": "11111",
+      "email": "jayesh@gmail.com",
+      "password": "1213",
+      "id": 4
+    },
+    {
+      "name": "jay",
+      "phone": "1331",
+      "email": "jay@113",
+      "password": "111",
+      "id": 5
+    },
+    {
+      "name": "k",
+      "phone": "k",
+      "email": "k@k",
+      "password": "k",
+      "id": 6
+    },
+    {
+      "name": "j",
+      "phone": "1",
+      "email": "j@j",
+      "password": "j",
+      "id": 7
+    },
+    {
+      "name": "Jay",
+      "phone": "525485666",
+      "email": "jay@1",
+      "password": "12345",
+      "id": 8
+    },
+    {
+      "name": "Rishi",
+      "phone": "9736560257",
+      "email": "rishi@gamil.com",
+      "password": "11111",
+      "id": 9
+    },
+    {
+      "name": "jack",
+      "phone": "9898989898",
+      "email": "jack@gmail.com",
+      "password": "jack123",
+      "id": 10
+    }
+  ]
+}

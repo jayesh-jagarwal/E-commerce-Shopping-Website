@@ -1,0 +1,364 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 0 1px 3px -2px black;
+    align-items: center;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-logo p {
+    color: #171717;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+}
+
+.nav-menu hr {
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: #FF4141;
+}
+
+.user-icon .icon {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 9px;
+    height: 37px;
+    width: 34px;
+    cursor: pointer;
+}
+
+.user-detail {
+    /* margin-top: 50px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.user-text {
+    position: absolute;
+    top: 78px;
+    right: 20%;
+    /* height: 300px; */
+    width: 400px;
+    padding: 10px;
+    background: white;
+    /* background-color: #f0f0f0;   */
+    border: 1px solid #ccc;
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* background-color:  white;
+    position: absolute;
+    top: 70px;
+    right:25%;
+    display: flex;
+    gap: 7px;
+    flex-direction: column; */
+}
+
+.user-text h1{
+    justify-content: center;
+    text-align: center;
+}
+
+.user-text .inp-text {
+    height: 40px;
+    width: 80%;
+    margin: 12px 0px 10px;
+    /* margin-top: 12px;
+    margin-bottom: 10px; */
+    padding-left: 20px;
+   /* padding: 10px;
+   margin-bottom: 15px;
+   border: 1px solid #ccc;
+   border-radius: 50px; */
+}
+
+.user-detail .user-btn{
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    outline: none;
+    height: 45px;
+    width: 90px;
+    background-color:rgb(249, 246, 246);
+}
+
+.user-detail .user-btn:active{
+    background: white;
+}
+
+.nav-login-cart {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.nav-login-cart button {
+    width: 157px;
+    height: 58px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    color: #515151;
+    font-size: 20px;
+    font-weight: 500;
+    background: white;
+    cursor: pointer;
+}
+
+.nav-login-cart button:active {
+    background: #f3f3f3;
+}
+
+.nav-cart-count {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-style: 14px;
+    background: red;
+    color: white;
+}
+
+.nav-dropdown {
+    display: none;
+}
+
+@media(max-width:1280px) {
+    .navbar {
+        padding: 12px 50px;
+    }
+
+    .nav-logo img {
+        width: 50px;
+    }
+
+    .nav-logo p {
+        gap: 35px;
+        font-size: 18px;
+    }
+
+    .nav-menu {
+        gap: 35px;
+        font-size: 18px;
+    }
+
+    .nav-login-cart {
+        gap: 30px;
+    }
+
+    .nav-login-cart button {
+        width: 120px;
+        height: 45px;
+        font-size: 16px;
+    }
+
+    .nav-cart-count {
+        margin-left: -40px;
+        font-size: 12px;
+    }
+    .user-text{
+        top: 74px;     
+    }
+}
+
+@media(max-width:1024px) {
+    .navbar {
+        padding: 12px 30px;
+    }
+
+    .nav-menu {
+        gap: 30px;
+        font-size: 16px;
+    }
+
+    .nav-login-cart {
+        gap: 30px;
+    }
+
+    .nav-login-cart button {
+        width: 80px;
+        height: 35px;
+        font-size: 12px;
+    }
+
+    .nav-logo img {
+        width: 40px;
+    }
+
+    .nav-login-cart img {
+        width: 35px;
+    }
+
+    .nav-cart-count {
+        width: 18px;
+        height: 18px;
+    }
+
+    .user-icon .icon {
+        border-radius: 50%;
+        padding: 5px;
+        height: 33px;
+        width: 30px;
+        /* display: flex; */
+    }
+    .user-text{
+        top: 62px;
+        right: 8%;
+        width: 320px;
+        padding: 10px;
+    }
+    .user-text h1{
+        font-size: 30px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .user-text .inp-text {
+        height: 35px;
+        width: 75%;
+        margin: 12px 0px 10px;
+    }
+    .user-detail .user-btn{
+        height: 35px;
+        width: 80px;
+    }
+    
+}
+
+@media(max-width:800px) {
+    .navbar {
+        padding: 10px 0px;
+    }
+
+    .nav-dropdown {
+        display: block;
+        width: 38px;
+        /* height: 40px; */
+        rotate: -90deg;
+        transition: 0.5s;
+    }
+
+    .nav-menu {
+        display: none;
+        height: 80px;
+        width: 100%;
+        position: absolute;
+        background-color: white;
+        justify-content: center;
+        top: 50px;
+    }
+
+    .user-icon .icon {
+        border-radius: 50%;
+        padding: 5px;
+        height: 33px;
+        width: 30px;
+        /* display: flex; */
+    }
+
+    .nav-menu-visible {
+        display: flex;
+    }
+
+    .nav-dropdown.open {
+        transform: rotate(90deg);
+    }
+    .user-text{
+        top: 60px;
+        right: 15%;
+        width: 250px;
+        padding: 10px;
+    }
+    .user-text h1{
+        font-size: 25px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .user-text .inp-text {
+        height: 28px;
+        width: 70%;
+        margin: 10px 0px 10px;
+    }
+    .user-detail .user-btn{
+        height: 32px;
+        width: 76px;
+    }
+}
+
+@media(max-width:540px) {
+    .navbar {
+        width: 10px 0px;
+        padding: 8px 0px;
+        gap: 0;
+    }
+
+    .nav-logo img {
+        width: 25px;
+    }
+
+    .nav-dropdown{
+        height: 30px;
+        width: 30px;
+    }
+
+    .nav-logo {
+        transform: scale(0.8);
+    }
+
+    .nav-menu {
+        height: 70px;
+        top: 50px;
+    }
+
+    .nav-login-cart {
+        transform: scale(0.8);
+    }
+    .user-icon .icon {
+        border-radius: 50%;
+        padding: 5px;
+        height: 33px;
+        width: 30px;
+        /* display: flex; */
+    }
+
+    .nav-cart-count {
+        width: 18px;
+        height: 18px;
+        /* margin-right: 15px; */
+    }
+    .user-text{
+        top: 65px;
+    }
+}
